@@ -1,6 +1,6 @@
 # 问题
 运维反馈线上应用cpu占用很高。登上机器，top查看下
-![img-1](images/线上Java应用CPU占用过高排查-1.png)
+![](https://raw.githubusercontent.com/iyonghe/my-blogs/master/java-blogs/images/%E7%BA%BF%E4%B8%8AJava%E5%BA%94%E7%94%A8CPU%E5%8D%A0%E7%94%A8%E8%BF%87%E9%AB%98%E6%8E%92%E6%9F%A5-1.png)
 cpu飙到了300%...
 
 # 排查
