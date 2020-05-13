@@ -36,9 +36,12 @@
         * redis缓存穿透
         * redis hash存储的一些思考
         * [美团-聊聊MyBatis缓存机制](https://tech.meituan.com/2018/01/19/mybatis-cache.html)
-    * 电商
-        * 如何避免重复下单 
+    * 交易
+        * 如何避免重复下单
         * 账户以及账单表设计
+    * im
+        * [服务器如何判断用户是否离线？](design/im/服务器如何判断用户是否离线.md)
+        * [如何用redis存储在线用户列表？](http://blog.huangz.me/diary/2016/redis-count-online-users.html)
 * 问题
      * [线上Java应用CPU占用过高排查](java-blogs/线上Java应用CPU占用过高排查.md)
      * [美团-常见性能优化策略的总结](https://tech.meituan.com/2016/12/02/performance-tunning.html)
@@ -57,12 +60,20 @@
         * [protobuf](https://developers.google.com/protocol-buffers)
     * DB
         * [mysql](https://dev.mysql.com/doc/refman/5.7/en/select-benchmarking.html)
+            * 解析binlog
+                * maxwell
+                * canal
         * [redis cluster](https://redis.io/topics/cluster-tutorial)
         * [elk](https://www.elastic.co/cn/)
     * im
         * [goim](https://github.com/Terry-Mao/goim)
         * netty
+    * MQ
+        * rocketmq
+        * kafka
     * 管理后台
         * [RuoYi](https://gitee.com/y_project/RuoYi)
     * H5通信
         * websocket
+    * 定时器
+        * xxl-job
