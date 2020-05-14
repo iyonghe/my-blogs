@@ -32,36 +32,35 @@
     * servlet服务器: tomcat
 
 ## 技术栈
-* 技术栈
-    * 登录认证
-        * spring-security-oauth2
-    * 数据源
-        * [hikariCP](https://github.com/brettwooldridge/HikariCP)
-    * 分库分表
-        * [sharding-jdbc](https://shardingsphere.apache.org/document/current/cn/manual/sharding-jdbc/)
-    * SOA
-        * [sofastack](https://www.sofastack.tech/)
-        * [spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba)
-        * [protobuf](https://developers.google.com/protocol-buffers)
-    * DB
-        * [mysql](https://dev.mysql.com/doc/refman/5.7/en/select-benchmarking.html)
-            * 解析binlog
-                * maxwell
-                * canal
-        * [redis cluster](https://redis.io/topics/cluster-tutorial)
-        * [elk](https://www.elastic.co/cn/)
-    * im
-        * [goim](https://github.com/Terry-Mao/goim)
-        * netty
-    * MQ
-        * rocketmq
-        * kafka
-    * 管理后台
-        * [RuoYi](https://gitee.com/y_project/RuoYi)
-    * H5通信
-        * websocket
-    * 定时器
-        * xxl-job
+* 登录认证
+    * spring-security-oauth2
+* 数据源
+    * [hikariCP](https://github.com/brettwooldridge/HikariCP)
+* 分库分表
+    * [sharding-jdbc](https://shardingsphere.apache.org/document/current/cn/manual/sharding-jdbc/)
+* SOA
+    * [sofastack](https://www.sofastack.tech/)
+    * [spring-cloud-alibaba](https://github.com/alibaba/spring-cloud-alibaba)
+    * [protobuf](https://developers.google.com/protocol-buffers)
+* DB
+    * [mysql](https://dev.mysql.com/doc/refman/5.7/en/select-benchmarking.html)
+        * 解析binlog
+            * maxwell
+            * canal
+    * [redis cluster](https://redis.io/topics/cluster-tutorial)
+    * [elk](https://www.elastic.co/cn/)
+* im
+    * [goim](https://github.com/Terry-Mao/goim)
+    * netty
+* MQ
+    * rocketmq
+    * kafka
+* 管理后台
+    * [RuoYi](https://gitee.com/y_project/RuoYi)
+* H5通信
+    * websocket
+* 定时器
+    * xxl-job
 
 ## 一些有价值的设计方案
 * 缓存
