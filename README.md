@@ -1,7 +1,7 @@
 # my-blogs
  一些关于技术的博客
 
-## 规划
+## 理论
 * 操作系统
     * 文件系统
     * 进程线程
@@ -30,21 +30,6 @@
     * JVM
     * spring
     * servlet服务器: tomcat
-* 一些有价值的设计方案
-    * 缓存
-        * redis缓存更新的最佳实践
-        * redis缓存穿透
-        * redis hash存储的一些思考
-        * [美团-聊聊MyBatis缓存机制](https://tech.meituan.com/2018/01/19/mybatis-cache.html)
-    * 交易
-        * 如何避免重复下单
-        * 账户以及账单表设计
-    * im
-        * [服务器如何判断用户是否离线？](design/im/服务器如何判断用户是否离线.md)
-        * [如何用redis存储在线用户列表？](http://blog.huangz.me/diary/2016/redis-count-online-users.html)
-* 问题
-     * [线上Java应用CPU占用过高排查](java-blogs/线上Java应用CPU占用过高排查.md)
-     * [美团-常见性能优化策略的总结](https://tech.meituan.com/2016/12/02/performance-tunning.html)
 
 ## 技术栈
 * 技术栈
@@ -77,3 +62,21 @@
         * websocket
     * 定时器
         * xxl-job
+
+## 一些有价值的设计方案
+* 缓存
+    * redis缓存更新的最佳实践
+    * redis缓存穿透
+    * redis hash存储的一些思考
+    * [美团-聊聊MyBatis缓存机制](https://tech.meituan.com/2018/01/19/mybatis-cache.html)
+* 交易
+    * 如何避免重复下单
+    * 账户以及账单表设计
+* im
+    * [服务器如何判断用户是否离线？](design/im/服务器如何判断用户是否离线.md)
+    * [如何用redis存储在线用户列表？](http://blog.huangz.me/diary/2016/redis-count-online-users.html)
+    * [微博-如何设计社交关系？](https://www.infoq.cn/article/weibo-relation-service-with-redis)
+
+## 问题排查
+* [线上Java应用CPU占用过高排查](java-blogs/线上Java应用CPU占用过高排查.md)
+* [美团-常见性能优化策略的总结](https://tech.meituan.com/2016/12/02/performance-tunning.html)
