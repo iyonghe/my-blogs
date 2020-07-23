@@ -7,12 +7,7 @@
     * 进程线程
     * 内存管理
 * 计算机网络
-* 数据结构与算法
-* 数据库
-    * mysql
-    * redis
-    * es
-* 分布式
+* 分布式系统
     * 分布式算法与理论
         * CAP
         * 2pc/3pc
@@ -22,6 +17,11 @@
         * [zookeeper](https://zookeeper.apache.org/)
         * RPC
         * seata
+* 数据结构与算法
+* 数据库
+    * mysql
+    * redis
+    * es
 * 设计模式
 * JAVA
     * 集合
@@ -78,4 +78,6 @@
 
 ## 问题排查
 * [线上Java应用CPU占用过高排查](java-blogs/线上Java应用CPU占用过高排查.md)
+* [jmap-查看jvm内存对象信息](https://houbb.github.io/2018/10/08/jvm-27-gc-jmap)
+* [MySQL分页offset过大性能问题与优化](https://juejin.im/entry/5c06b4d6e51d451df253b985)
 * [美团-常见性能优化策略的总结](https://tech.meituan.com/2016/12/02/performance-tunning.html)
