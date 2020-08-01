@@ -32,8 +32,8 @@
     * servlet服务器: tomcat
 
 ## 技术栈
-* 登录认证
-    * spring-security-oauth2
+* 认证授权
+    * shiro
 * 数据源
     * [hikariCP](https://github.com/brettwooldridge/HikariCP)
 * 分库分表
@@ -47,12 +47,13 @@
         * 解析binlog
             * maxwell
             * canal
-    * [redis cluster](https://redis.io/topics/cluster-tutorial)
+    * [redis](https://redis.io/topics/cluster-tutorial)
     * [elk](https://www.elastic.co/cn/)
 * im
     * [goim](https://github.com/Terry-Mao/goim)
     * netty
 * MQ
+    * activemq
     * rocketmq
     * kafka
 * 管理后台
@@ -61,6 +62,11 @@
     * websocket
 * 定时器
     * xxl-job
+* 数据仓库
+    * druid.io
+    * kylin
+    * doris
+    * elasticsearch
 
 ## 一些有价值的设计方案
 * 缓存
