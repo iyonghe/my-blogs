@@ -33,7 +33,8 @@
 
 ## 技术栈
 * 认证授权
-    * shiro
+    * shiro + oauth2
+    * shiro + jwt
 * 数据源
     * [hikariCP](https://github.com/brettwooldridge/HikariCP)
 * 分库分表
