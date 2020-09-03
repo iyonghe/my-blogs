@@ -7,6 +7,8 @@
     * 进程线程
     * 内存管理
 * 计算机网络
+    * tcp/ip协议
+    * http协议
 * 分布式系统
     * 分布式算法与理论
         * CAP
@@ -18,6 +20,17 @@
         * RPC
         * seata
 * 数据结构与算法
+    * 数据结构
+        * 线性表
+            * 数组
+            * 链表
+        * 栈与队列
+        * 串
+        * 树
+        * 图
+    * 算法
+        * 查找
+        * 排序
 * 数据库
     * mysql
     * redis
@@ -45,7 +58,7 @@
     * [protobuf](https://developers.google.com/protocol-buffers)
 * DB
     * [mysql](https://dev.mysql.com/doc/refman/5.7/en/select-benchmarking.html)
-        * 解析binlog
+        * binlog解析
             * maxwell
             * canal
     * [redis](https://redis.io/topics/cluster-tutorial)
